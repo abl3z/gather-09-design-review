@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1900" viewBox="0 0 1280 1900" role="img" aria-label="Discover to booking">
+<title>Discover to booking</title>
+<rect id="background" width="1280" height="1900" fill="#f5f7f3"/>
+<g id="header">
+<text x="40" y="48" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#1f6f58">GATHER · SUPPLEMENTAL FLOW 01 OF 03</text>
+<text x="40" y="84" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#0d1816">Discover to booking</text>
+<text x="40" y="108" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#54665d">Journey spine with location fallback and sold-out exit. Detail lives in flows 02 and 03.</text>
+</g>
+<g id="legend">
+<rect x="40" y="124" width="1200" height="56" rx="14" fill="#ffffff" stroke="#d8e1dc"/>
+<circle cx="75" cy="152" r="11" fill="#0d1816"/>
+<text x="94" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Start / End</text>
+<rect x="192" y="142" width="30" height="20" rx="5" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="230" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Action</text>
+<polygon points="312,140 328,152 312,164 296,152" fill="#ffffff" stroke="#182724" stroke-width="2" stroke-linejoin="round"/>
+<text x="336" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Decision</text>
+<rect x="414" y="142" width="30" height="20" rx="5" fill="#ffffff" stroke="#182724" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="452" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Link to another flow</text>
+<line x1="610" y1="138" x2="610" y2="166" stroke="#d8e1dc"/>
+<line x1="634" y1="152" x2="660" y2="152" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="670,152 659,146 659,158" fill="#1f6f58"/>
+<text x="680" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Main route</text>
+<line x1="780" y1="152" x2="806" y2="152" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="816,152 805,146 805,158" fill="#b7791f"/>
+<text x="826" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Recovery route</text>
+<line x1="954" y1="152" x2="980" y2="152" stroke="#b5412e" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="990,152 979,146 979,158" fill="#b5412e"/>
+<text x="1000" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Error route</text>
+</g>
+<g id="connectors">
+<g id="connector-start-to-discover">
+<path d="M600 302 L600 343" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,354 594,342 606,342" fill="#1f6f58"/>
+</g>
+<g id="connector-discover-to-location">
+<path d="M600 430 L600 475" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,486 594,474 606,474" fill="#1f6f58"/>
+</g>
+<g id="connector-location-to-browse">
+<path d="M600 616 L600 681" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,692 594,680 606,680" fill="#1f6f58"/>
+<text x="612" y="647" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Yes</text>
+</g>
+<g id="connector-location-to-chooser">
+<path d="M490 551 L361 551" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,551 362,545 362,557" fill="#b7791f"/>
+<text x="420" y="541" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#7a4f0a">No or denied</text>
+</g>
+<g id="connector-chooser-to-manual">
+<path d="M220 589 L220 681" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,692 214,680 226,680" fill="#b7791f"/>
+</g>
+<g id="connector-manual-to-browse">
+<path d="M350 730 L459 730" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="470,730 458,736 458,724" fill="#b7791f"/>
+</g>
+<g id="connector-browse-to-filters">
+<path d="M730 730 L839 730" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="850,730 838,736 838,724" fill="#1f6f58"/>
+<text x="790" y="720" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Open Filters</text>
+</g>
+<g id="connector-browse-to-results">
+<path d="M600 768 L600 813" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,824 594,812 606,812" fill="#1f6f58"/>
+</g>
+<g id="connector-filters-to-results">
+<path d="M980 768 L980 877 Q980 889 968 889 L721 889" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="710,889 722,883 722,895" fill="#1f6f58"/>
+<text x="992" y="800" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Apply</text>
+</g>
+<g id="connector-results-to-flow02">
+<path d="M490 889 L361 889" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,889 362,883 362,895" fill="#b7791f"/>
+<text x="420" y="879" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#7a4f0a">No</text>
+</g>
+<g id="connector-results-to-tap">
+<path d="M600 954 L600 999" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1010 594,998 606,998" fill="#1f6f58"/>
+<text x="612" y="985" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Yes</text>
+</g>
+<g id="connector-tap-to-details">
+<path d="M600 1086 L600 1131" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1142 594,1130 606,1130" fill="#1f6f58"/>
+</g>
+<g id="connector-details-to-spots">
+<path d="M600 1218 L600 1263" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1274 594,1262 606,1262" fill="#1f6f58"/>
+</g>
+<g id="connector-spots-to-soldout">
+<path d="M710 1339 L839 1339" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="850,1339 838,1345 838,1333" fill="#b7791f"/>
+<text x="780" y="1329" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#7a4f0a">No</text>
+</g>
+<g id="connector-soldout-to-browse">
+<path d="M1110 1339 L1168 1339 Q1180 1339 1180 1327 L1180 658 Q1180 646 1168 646 L692 646 Q680 646 680 658 L680 681" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="680,692 674,680 686,680" fill="#b7791f"/>
+<text x="1168" y="1000" text-anchor="end" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#7a4f0a">Back to Discover</text>
+</g>
+<g id="connector-spots-to-review">
+<path d="M600 1404 L600 1449" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1460 594,1448 606,1448" fill="#1f6f58"/>
+<text x="612" y="1435" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Yes</text>
+</g>
+<g id="connector-review-to-flow03">
+<path d="M600 1536 L600 1581" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1592 594,1580 606,1580" fill="#1f6f58"/>
+</g>
+<g id="connector-flow03-to-end">
+<path d="M600 1668 L600 1713" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1724 594,1712 606,1712" fill="#1f6f58"/>
+</g>
+</g>
+<g id="nodes">
+<g id="circle-start">
+<circle cx="600" cy="250" r="52" fill="#0d1816"/>
+<text x="600" y="244.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">Start</text>
+<text x="600" y="265.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#ffffff">Open Gather</text>
+</g>
+<g id="rect-discover">
+<rect x="470" y="354" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="386.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Open Discover</text>
+<text x="600" y="407.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Location label reads Near me</text>
+<rect x="631.2" y="343" width="84.8" height="22" rx="11" fill="#182724"/>
+<text x="673.6" y="358.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Screen 01</text>
+</g>
+<g id="diamond-location">
+<polygon points="600,486 710,551 600,616 490,551" fill="#ffffff" stroke="#182724" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="600" y="545.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Location</text>
+<text x="600" y="566.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">available?</text>
+</g>
+<g id="rect-chooser">
+<rect x="90" y="513" width="260" height="76" rx="14" fill="#fdf3e0" stroke="#b7791f" stroke-width="2"/>
+<text x="220" y="545.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Open location chooser</text>
+<text x="220" y="566.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">In-app sheet, no fake OS prompt</text>
+</g>
+<g id="rect-manual">
+<rect x="90" y="692" width="260" height="76" rx="14" fill="#fdf3e0" stroke="#b7791f" stroke-width="2"/>
+<text x="220" y="724.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Pick area manually</text>
+<text x="220" y="745.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Amman · Jabal Al Weibdeh</text>
+</g>
+<g id="rect-browse">
+<rect x="470" y="692" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="724.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Browse 3 event cards</text>
+<text x="600" y="745.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Max 20 JOD · 5 km · This weekend</text>
+</g>
+<g id="rect-filters">
+<rect x="850" y="692" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="980" y="724.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Adjust filters</text>
+<text x="980" y="745.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Bottom sheet: Apply · Reset</text>
+</g>
+<g id="diamond-results">
+<polygon points="600,824 710,889 600,954 490,889" fill="#ffffff" stroke="#182724" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="600" y="883.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Results</text>
+<text x="600" y="904.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">found?</text>
+</g>
+<g id="link-flow02">
+<rect x="90" y="851" width="260" height="76" rx="14" fill="#ffffff" stroke="#b7791f" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="220" y="883.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Go to Flow 02</text>
+<text x="220" y="904.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">No-results recovery</text>
+</g>
+<g id="rect-tap">
+<rect x="470" y="1010" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="1042.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Tap an event card</text>
+<text x="600" y="1063.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Whole card is the tap target</text>
+</g>
+<g id="rect-details">
+<rect x="470" y="1142" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="1174.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Read event details</text>
+<text x="600" y="1195.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Included · Cancellation · Price</text>
+<rect x="631.2" y="1131" width="84.8" height="22" rx="11" fill="#182724"/>
+<text x="673.6" y="1146.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Screen 03</text>
+</g>
+<g id="diamond-spots">
+<polygon points="600,1274 710,1339 600,1404 490,1339" fill="#ffffff" stroke="#182724" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="600" y="1333.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Spots</text>
+<text x="600" y="1354.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">available?</text>
+</g>
+<g id="rect-soldout">
+<rect x="850" y="1301" width="260" height="76" rx="14" fill="#fdf3e0" stroke="#b7791f" stroke-width="2"/>
+<text x="980" y="1333.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Show Sold out badge</text>
+<text x="980" y="1354.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Review booking is disabled</text>
+</g>
+<g id="rect-review">
+<rect x="470" y="1460" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="1492.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Tap Review booking</text>
+<text x="600" y="1513.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Sticky button on details</text>
+</g>
+<g id="link-flow03">
+<rect x="470" y="1592" width="260" height="76" rx="14" fill="#ffffff" stroke="#1f6f58" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="600" y="1624.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Go to Flow 03</text>
+<text x="600" y="1645.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Booking, payment and errors</text>
+</g>
+<g id="circle-end">
+<circle cx="600" cy="1776" r="52" fill="#1f6f58"/>
+<circle cx="600" cy="1776" r="46" fill="none" stroke="#ffffff" stroke-width="2"/>
+<text x="600" y="1770.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">End</text>
+<text x="600" y="1791.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#ffffff">Booked</text>
+</g>
+</g>
+<g id="note-1">
+<rect x="70" y="1110" width="3" height="86" rx="1.5" fill="#cf9b5b"/>
+<text x="84" y="1124" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#182724">Why this flow is short</text>
+<text x="84" y="1146" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">The FigJam board holds the full main journey.</text>
+<text x="84" y="1166" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">This file adds only the location fallback</text>
+<text x="84" y="1186" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">and the sold-out exit, then links onward.</text>
+</g>
+<g id="note-2">
+<rect x="870" y="1470" width="3" height="66" rx="1.5" fill="#cf9b5b"/>
+<text x="884" y="1484" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#182724">Location rule</text>
+<text x="884" y="1506" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">The app never fakes a system permission prompt.</text>
+<text x="884" y="1526" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Denied or unknown location opens the chooser.</text>
+</g>
+<text id="footer" x="40" y="1868" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Fictional test content. Scarcity counts, saved card and payment results are invented for this assignment.</text>
+</svg>

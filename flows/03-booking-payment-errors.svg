@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1920" viewBox="0 0 1280 1920" role="img" aria-label="Booking, payment and errors">
+<title>Booking, payment and errors</title>
+<rect id="background" width="1280" height="1920" fill="#f5f7f3"/>
+<g id="header">
+<text x="40" y="48" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#1f6f58">GATHER · SUPPLEMENTAL FLOW 03 OF 03</text>
+<text x="40" y="84" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.5" fill="#0d1816">Booking, payment and errors</text>
+<text x="40" y="108" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#54665d">Paid and free paths, sold out during checkout, declined card, and unknown payment result.</text>
+</g>
+<g id="legend">
+<rect x="40" y="124" width="1200" height="56" rx="14" fill="#ffffff" stroke="#d8e1dc"/>
+<circle cx="75" cy="152" r="11" fill="#0d1816"/>
+<text x="94" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Start / End</text>
+<rect x="192" y="142" width="30" height="20" rx="5" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="230" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Action</text>
+<polygon points="312,140 328,152 312,164 296,152" fill="#ffffff" stroke="#182724" stroke-width="2" stroke-linejoin="round"/>
+<text x="336" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Decision</text>
+<rect x="414" y="142" width="30" height="20" rx="5" fill="#ffffff" stroke="#182724" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="452" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Link to another flow</text>
+<line x1="610" y1="138" x2="610" y2="166" stroke="#d8e1dc"/>
+<line x1="634" y1="152" x2="660" y2="152" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="670,152 659,146 659,158" fill="#1f6f58"/>
+<text x="680" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Main route</text>
+<line x1="780" y1="152" x2="806" y2="152" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="816,152 805,146 805,158" fill="#b7791f"/>
+<text x="826" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Recovery route</text>
+<line x1="954" y1="152" x2="980" y2="152" stroke="#b5412e" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="990,152 979,146 979,158" fill="#b5412e"/>
+<text x="1000" y="156.5" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#182724">Error route</text>
+</g>
+<g id="connectors">
+<g id="connector-start-to-paid">
+<path d="M600 302 L600 333" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,344 594,332 606,332" fill="#1f6f58"/>
+</g>
+<g id="connector-paid-to-order">
+<path d="M600 474 L600 519" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,530 594,518 606,518" fill="#1f6f58"/>
+<text x="612" y="505" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Yes</text>
+</g>
+<g id="connector-paid-to-free">
+<path d="M710 409 L839 409" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="850,409 838,415 838,403" fill="#1f6f58"/>
+<text x="780" y="399" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">No, free</text>
+</g>
+<g id="connector-free-to-confirm">
+<path d="M1110 409 L1208 409 Q1220 409 1220 421 L1220 1598 Q1220 1610 1208 1610 L741 1610" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="730,1610 742,1604 742,1616" fill="#1f6f58"/>
+<text x="1208" y="1500" text-anchor="end" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Reserve</text>
+</g>
+<g id="connector-order-to-stepper">
+<path d="M600 606 L600 651" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,662 594,650 606,650" fill="#1f6f58"/>
+</g>
+<g id="connector-stepper-to-pay">
+<path d="M600 738 L600 783" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,794 594,782 606,782" fill="#1f6f58"/>
+</g>
+<g id="connector-pay-to-available">
+<path d="M600 870 L600 915" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,926 594,914 606,914" fill="#1f6f58"/>
+</g>
+<g id="connector-available-to-soldout">
+<path d="M490 991 L361 991" fill="none" stroke="#b5412e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,991 362,985 362,997" fill="#b5412e"/>
+<text x="420" y="981" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#93301f">No</text>
+</g>
+<g id="connector-soldout-to-endsold">
+<path d="M220 1029 L220 1074" fill="none" stroke="#b5412e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,1085 214,1073 226,1073" fill="#b5412e"/>
+</g>
+<g id="connector-available-to-process">
+<path d="M600 1056 L600 1101" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1112 594,1100 606,1100" fill="#1f6f58"/>
+<text x="612" y="1087" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Yes</text>
+</g>
+<g id="connector-process-to-result">
+<path d="M600 1188 L600 1233" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1244 594,1232 606,1232" fill="#1f6f58"/>
+</g>
+<g id="connector-result-to-declined">
+<path d="M710 1309 L839 1309" fill="none" stroke="#b5412e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="850,1309 838,1315 838,1303" fill="#b5412e"/>
+<text x="780" y="1299" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#93301f">Declined</text>
+</g>
+<g id="connector-declined-to-pay">
+<path d="M1110 1309 L1158 1309 Q1170 1309 1170 1297 L1170 844 Q1170 832 1158 832 L741 832" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="730,832 742,826 742,838" fill="#b7791f"/>
+<text x="1158" y="1000" text-anchor="end" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#7a4f0a">Manual retry or new card</text>
+</g>
+<g id="connector-result-to-unknown">
+<path d="M490 1309 L361 1309" fill="none" stroke="#b5412e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="350,1309 362,1303 362,1315" fill="#b5412e"/>
+<text x="420" y="1299" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#93301f">Unknown</text>
+</g>
+<g id="connector-unknown-to-status">
+<path d="M220 1347 L220 1402" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,1413 214,1401 226,1401" fill="#b7791f"/>
+</g>
+<g id="connector-status-to-charge">
+<path d="M220 1489 L220 1534" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,1545 214,1533 226,1533" fill="#b7791f"/>
+</g>
+<g id="connector-charge-to-confirm">
+<path d="M330 1610 L459 1610" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="470,1610 458,1616 458,1604" fill="#1f6f58"/>
+<text x="400" y="1600" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Yes</text>
+</g>
+<g id="connector-charge-to-notcharged">
+<path d="M220 1675 L220 1720" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="220,1731 214,1719 226,1719" fill="#b7791f"/>
+<text x="232" y="1706" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#7a4f0a">No</text>
+</g>
+<g id="connector-notcharged-to-pay">
+<path d="M90 1769 L56 1769 Q44 1769 44 1757 L44 844 Q44 832 56 832 L459 832" fill="none" stroke="#b7791f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="470,832 458,838 458,826" fill="#b7791f"/>
+<text x="56" y="870" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#7a4f0a">User may pay again</text>
+</g>
+<g id="connector-result-to-confirm">
+<path d="M600 1374 L600 1561" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1572 594,1560 606,1560" fill="#1f6f58"/>
+<text x="612" y="1405" text-anchor="start" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#17574a">Success</text>
+</g>
+<g id="connector-confirm-to-end">
+<path d="M600 1648 L600 1699" fill="none" stroke="#1f6f58" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="600,1710 594,1698 606,1698" fill="#1f6f58"/>
+</g>
+</g>
+<g id="nodes">
+<g id="circle-start">
+<circle cx="600" cy="250" r="52" fill="#0d1816"/>
+<text x="600" y="244.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">Start</text>
+<text x="600" y="265.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#ffffff">From details</text>
+</g>
+<g id="diamond-paid">
+<polygon points="600,344 710,409 600,474 490,409" fill="#ffffff" stroke="#182724" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="600" y="403.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Paid</text>
+<text x="600" y="424.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">event?</text>
+</g>
+<g id="rect-free">
+<rect x="850" y="371" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="980" y="403.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Reserve free spot</text>
+<text x="980" y="424.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">No payment row · CTA Reserve spot</text>
+</g>
+<g id="rect-order">
+<rect x="470" y="530" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="562.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Review order</text>
+<text x="600" y="583.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">1 ticket · 18 JOD + 0 fee = 18 JOD</text>
+<rect x="631.2" y="519" width="84.8" height="22" rx="11" fill="#182724"/>
+<text x="673.6" y="534.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Screen 04</text>
+</g>
+<g id="rect-stepper">
+<rect x="470" y="662" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="694.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Set ticket count</text>
+<text x="600" y="715.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Stepper 1–3 · total updates live</text>
+</g>
+<g id="rect-pay">
+<rect x="470" y="794" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="826.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Tap Pay 18 JOD</text>
+<text x="600" y="847.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Saved card and email are masked</text>
+</g>
+<g id="diamond-available">
+<polygon points="600,926 710,991 600,1056 490,991" fill="#ffffff" stroke="#182724" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="600" y="985.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Still</text>
+<text x="600" y="1006.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">available?</text>
+</g>
+<g id="rect-soldout">
+<rect x="90" y="953" width="260" height="76" rx="14" fill="#fbe9e5" stroke="#b5412e" stroke-width="2"/>
+<text x="220" y="985.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Sold out during checkout</text>
+<text x="220" y="1006.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Payment is not sent · say why</text>
+</g>
+<g id="circle-endsold">
+<circle cx="220" cy="1137" r="52" fill="#b5412e"/>
+<circle cx="220" cy="1137" r="46" fill="none" stroke="#ffffff" stroke-width="2"/>
+<text x="220" y="1131.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">End</text>
+<text x="220" y="1152.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#ffffff">To Discover</text>
+</g>
+<g id="rect-process">
+<rect x="470" y="1112" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="1144.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Process payment</text>
+<text x="600" y="1165.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Button shows progress · locked</text>
+</g>
+<g id="diamond-result">
+<polygon points="600,1244 710,1309 600,1374 490,1309" fill="#ffffff" stroke="#182724" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="600" y="1303.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Payment</text>
+<text x="600" y="1324.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">result?</text>
+</g>
+<g id="rect-declined">
+<rect x="850" y="1271" width="260" height="76" rx="14" fill="#fbe9e5" stroke="#b5412e" stroke-width="2"/>
+<text x="980" y="1303.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Show Declined banner</text>
+<text x="980" y="1324.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Say Not charged only if verified</text>
+</g>
+<g id="rect-unknown">
+<rect x="90" y="1271" width="260" height="76" rx="14" fill="#fbe9e5" stroke="#b5412e" stroke-width="2"/>
+<text x="220" y="1303.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Unknown result or timeout</text>
+<text x="220" y="1324.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">No automatic retry</text>
+</g>
+<g id="rect-status">
+<rect x="90" y="1413" width="260" height="76" rx="14" fill="#fdf3e0" stroke="#b7791f" stroke-width="2"/>
+<text x="220" y="1445.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Check booking status</text>
+<text x="220" y="1466.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Ask provider before a new payment</text>
+</g>
+<g id="diamond-charge">
+<polygon points="220,1545 330,1610 220,1675 110,1610" fill="#ffffff" stroke="#182724" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="220" y="1604.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Charge</text>
+<text x="220" y="1625.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">found?</text>
+</g>
+<g id="rect-confirm">
+<rect x="470" y="1572" width="260" height="76" rx="14" fill="#e6f2ec" stroke="#1f6f58" stroke-width="2"/>
+<text x="600" y="1604.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Show Confirmation</text>
+<text x="600" y="1625.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Reference · email · directions</text>
+<rect x="631.2" y="1561" width="84.8" height="22" rx="11" fill="#182724"/>
+<text x="673.6" y="1576.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Screen 05</text>
+</g>
+<g id="rect-notcharged">
+<rect x="90" y="1731" width="260" height="76" rx="14" fill="#fdf3e0" stroke="#b7791f" stroke-width="2"/>
+<text x="220" y="1763.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0d1816">Show verified Not charged</text>
+<text x="220" y="1784.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Return to Review booking</text>
+</g>
+<g id="circle-end">
+<circle cx="600" cy="1762" r="52" fill="#1f6f58"/>
+<circle cx="600" cy="1762" r="46" fill="none" stroke="#ffffff" stroke-width="2"/>
+<text x="600" y="1756.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#ffffff">End</text>
+<text x="600" y="1777.5" text-anchor="middle" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#ffffff">Booked</text>
+</g>
+</g>
+<g id="note-1">
+<rect x="830" y="560" width="3" height="86" rx="1.5" fill="#cf9b5b"/>
+<text x="844" y="574" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#182724">Payment honesty</text>
+<text x="844" y="596" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">No real transaction, hold or refund is claimed.</text>
+<text x="844" y="616" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Not charged appears only after verification.</text>
+<text x="844" y="636" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">An unknown result never triggers a second charge.</text>
+</g>
+<g id="note-2">
+<rect x="830" y="1700" width="3" height="66" rx="1.5" fill="#cf9b5b"/>
+<text x="844" y="1714" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#182724">Stepper rule</text>
+<text x="844" y="1736" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Maximum is 3 because 3 spots are left.</text>
+<text x="844" y="1756" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">2 tickets: total and button read 36 JOD.</text>
+</g>
+<text id="footer" x="40" y="1888" font-family="Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#54665d">Fictional test content. Scarcity counts, saved card and payment results are invented for this assignment.</text>
+</svg>
